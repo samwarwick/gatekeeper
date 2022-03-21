@@ -23,7 +23,7 @@ Gatekeeper was developed during [BlockathonDAO](https://blockathon.xyz/) March 2
 
 Install node packages:
 
-`yarn install`
+`npm install`
 
 Create a `.env` file in root of the repo with the following entries:
 
@@ -35,11 +35,11 @@ COINMARKETCAP_API_KEY=...
 
 Compile the contract:
 
-`yarn sol:compile`
+`npm run sol:compile`
 
 Start the application:
 
-`yarn run dev`
+`npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) 
 
@@ -47,14 +47,14 @@ Open [http://localhost:3000](http://localhost:3000)
 
 To run the [tests](test/TestSleepyKoala.ts) for the contract functions:
 
-`yarn run sol:test`
+`npm run sol:test`
 
 ### Deploying Your Own Contract
 
 If you prefer to use your own instance of the SleepyKoala contract:
 
-1. `yarn sol:compile`
-2. `yarn sol:deploy:rinkeby`
+1. `npm run sol:compile`
+2. `npm run sol:deploy:rinkeby`
 3. Update `contractAddress` in [Minter.tsx](components/Minter.tsx) with the contract address returned in step 2.
 4. Restart the application.
 
