@@ -4,7 +4,7 @@ import NFT from "../artifacts/contracts/SleepyKoala.sol/ISleepyKoala.json";
 import { formatFixed } from "@ethersproject/bignumber";
 import { useRouter } from "next/router";
 
-const contractAddress = "0x494da02F9D34B0f2102D412bf34b6C16785395cD";
+const contractAddress = "0x09E09A5E171EA4E97d87e489c91Af1897043821A";
 
 interface Props {
   wallet: string;
