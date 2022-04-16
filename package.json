@@ -1,6 +1,7 @@
 {
   "name": "gatekeeper",
   "version": "0.1.0",
+  "homepage": "https://samwarwick.github.io/gatekeeper",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +10,7 @@
     "lint": "next lint",
     "sol:clean": "hardhat clean",
     "sol:compile": "hardhat compile",
-    "sol:compile-ci": "npx hardhat --config hardhat-build.config.ts compile",
+    "sol:compile-ci": "hardhat --config hardhat-build.config.ts compile",
     "sol:hardhat:rinkeby": "hardhat --network rinkeby",
     "sol:test": "hardhat test",
     "sol:test:rinkeby": "npm run hardhat test",
