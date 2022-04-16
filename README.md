@@ -11,6 +11,7 @@ Gatekeeper was developed during [BlockathonDAO](https://blockathon.xyz/) March 2
 
 * Ethereum blockchain
 * Node (v16 recommended)
+* [Next](https://nextjs.org/)
 * Typescript
 * Ethers.js
 * Hardhat
